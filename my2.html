@@ -1,0 +1,158 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>/* Бүх тохиргоо */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    /* Биеийн үндсэн тохиргоо */
+    body {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    /* Логин контейнер */
+    .login-container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    /* Логин форм */
+    .login-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    /* Input болон Label-ийн тохиргоо */
+    .input-group {
+        margin-bottom: 20px;
+    }
+    
+    .input-group label {
+        font-size: 14px;
+        color: #555;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    /* Checkbox тохиргоо */
+    .input-group input[type="checkbox"] {
+        width: auto;
+        margin-right: 10px;
+    }
+    
+    /* Submit товчлуур */
+    .submit-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #7d7b90;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+        background-color: #45a049;
+    }
+    
+    /* Нууц үг мартсан холбоос */
+    .forgot-password {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .forgot-password a {
+        color: #99acc1;
+        text-decoration: none;
+    }
+    
+    .forgot-password a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Бүртгүүлэх холбоос */
+    .signup-link {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .signup-link a {
+        color: #7f33a4;
+        text-decoration: none;
+    }
+    
+    .signup-link a:hover {
+        text-decoration: underline;
+    }</style>
+<body>
+    <div class="login-container">
+        <form action="#" method="POST" class="login-form">
+            <h2>Нэвтрэх jhfhgf</h2>
+
+            <!-- Username or Email -->
+            <div class="input-group">
+                <label for="username">Нэвтрэх нэр эсвэл имэйл</label>
+                <input type="text" id="username" name="username" placeholder="Нэвтрэх нэр эсвэл имэйл" required>
+            </div>
+
+            <!-- Password -->
+            <div class="input-group">
+                <label for="password">Нууц үг</label>
+                <input type="password" id="password" name="password" placeholder="Нууц үг" required>
+            </div>
+
+            <!-- Remember me checkbox -->
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" id="remember" name="remember"> Миний логиныг санах
+                </label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="input-group">
+                <button type="submit" class="submit-btn">Нэвтрэх</button>
+            </div>
+
+            <!-- Forgot password -->
+            <div class="forgot-password">
+                <a href="#">Нууц үгээ мартсан уу?</a>
+            </div>
+
+            <!-- Sign Up Link -->
+            <div class="signup-link">
+                <p>Шинэ хэрэглэгч үү? <a href="css2.html">Бүртгүүлэх</a></p>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
